@@ -1,0 +1,29 @@
+{
+  "name": "ts-express-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic backend project using TypeScript and Express.js with MongoDB integration, CORS support, error handling, and structured middleware. Designed as a starting point for building APIs with a clean and scalable architecture.",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/app.js",
+    "dev": "nodemon -r ts-node src/app.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "author": "Siva",
+  "license": "MIT"
+}
